@@ -20,6 +20,7 @@ services:
       # Change next line if you want to connect to a different JSON-RPC endpoint
       ethereum: 'mainnet:http://host.docker.internal:8545'
       GRAPH_LOG: info
+      GRAPH_MAX_API_VERSION: '0.0.5' // dave you changed this
   ipfs:
     image: ipfs/go-ipfs:v0.4.23
     ports:
